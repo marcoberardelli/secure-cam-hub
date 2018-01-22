@@ -1,4 +1,4 @@
-package handlerImages
+package main
 
 import (
 	"image/jpeg"
