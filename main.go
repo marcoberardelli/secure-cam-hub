@@ -17,7 +17,7 @@ func getIP() string {
 var templates *template.Template
 
 func main() {
-	//Load all the html files of the static/html folder
+	// Loads all the html files from static/html folder
 	templates = template.Must(template.ParseGlob("static/html/*.html"))
 
 
